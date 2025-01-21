@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin-top: 40px;
+        }
+        .left-column {
+            flex: 2;
+            max-width: 700px;
+            font-size: 16px;
+            line-height: 1.6;
+            padding-right: 20px;
+        }
+        .right-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin-bottom: 40px;
+        }
+        .button {
+            padding: 15px 25px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-align: center;
+            display: block;
+            width: 220px;
+            margin-bottom: 10px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <h1>Game Over</h1>
+    <div class="container">
+        <div class="left-column">
+            <p>
+                In a panic, you rush to the kitchen to arm yourself with a knife. But as you reach the hallway, you hear the shuffle of footsteps. The zombies, now identified, quickly intercept and block your path. You're trapped. With nowhere to go, you dash back to your room, but the zombies are relentless and follow you. They close in, and you have no choice but to face them. 
+                <br><br>
+                As they grab hold of you, you feel the sharp pain of their bite. Your vision fades, and your body goes numb. You have no control as you feel yourself change. You turn into a zombie.
+                <br><br>
+                The end. 
+            </p>
+        </div>
+        <div class="right-column">
+            <img src="https://api.deepai.org/job-view-file/e649d19c-f58e-4d0d-b5e0-28320bb5f317/outputs/output.jpg" alt="Zombies closing in" />
+            <a href="ChooseYourOwn.html" class="button">Start Over</a>
+        </div>
+    </div>
+</body>
+</html>
